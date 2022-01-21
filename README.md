@@ -1,5 +1,5 @@
 # STM32L151 board design with KiCad 
-
+The design files are available and free to use . The Bill of materials is in Excel format and be ordered from Mouser website. For Any project related question do not hesitate to message me thanks.
 ## Manufactured board view
 ![JLPC Assembled Board ](./images/board.PNG)
 
