@@ -19,5 +19,5 @@ The design files are available and free to use . The Bill of materials is in Exc
 * Analog Temperature sensor
 * Digital Humidity and temperature sensor (I2C)
 * External Flash memory (16Mbits)
-* Digital LED 
+* Digital RGB LED (IN-PI554FCH)
 * Simple LED 

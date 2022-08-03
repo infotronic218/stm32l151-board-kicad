@@ -498,9 +498,9 @@ Text GLabel 3400 6100 2    50   Input ~ 0
 PA7_SPI1_MOSI
 Text GLabel 3100 5800 0    50   Input ~ 0
 ~CS
-Text GLabel 3100 6100 0    50   Input ~ 0
-DO
 Text GLabel 3100 6000 0    50   Input ~ 0
+DO
+Text GLabel 3100 6100 0    50   Input ~ 0
 DI
 Text GLabel 3550 5300 2    50   Input ~ 0
 CLK
@@ -510,10 +510,6 @@ Wire Wire Line
 	3100 5800 3400 5800
 Wire Wire Line
 	3100 5900 3400 5900
-Wire Wire Line
-	3100 6000 3400 6000
-Wire Wire Line
-	3100 6100 3400 6100
 Text GLabel 3300 6300 0    50   Input ~ 0
 MEM_RST
 $Comp
@@ -2222,25 +2218,25 @@ F 5 "IN-PI554FCH" H 9350 3750 50  0001 C CNN "MPN"
 	1    9350 3750
 	1    0    0    -1  
 $EndComp
-Text GLabel 5200 4500 2    50   Input ~ 0
+Text GLabel 5750 4550 2    50   Input ~ 0
 UBTN
 $Comp
 L Device:Jumper_NC_Small JP5
 U 1 1 62864A8F
-P 5000 4500
-F 0 "JP5" H 5000 4621 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 5000 4621 50  0001 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5000 4500 50  0001 C CNN
-F 3 "~" H 5000 4500 50  0001 C CNN
-	1    5000 4500
+P 5550 4550
+F 0 "JP5" H 5550 4671 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 5550 4671 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5550 4550 50  0001 C CNN
+F 3 "~" H 5550 4550 50  0001 C CNN
+	1    5550 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 4700 4500 0    50   Input ~ 0
+Text GLabel 5250 4550 0    50   Input ~ 0
 PA15
 Wire Wire Line
-	4700 4500 4900 4500
+	5250 4550 5450 4550
 Wire Wire Line
-	5100 4500 5200 4500
+	5650 4550 5750 4550
 $Comp
 L power:GND #PWR051
 U 1 1 61C74DBE
@@ -2320,4 +2316,8 @@ Addr =0x53
 Wire Wire Line
 	8900 4850 9750 4850
 NoConn ~ 9350 5250
+Wire Wire Line
+	3100 6000 3400 6000
+Wire Wire Line
+	3100 6100 3400 6100
 $EndSCHEMATC
